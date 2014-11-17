@@ -14,5 +14,6 @@ setup(
     test_suite='secure_cookie',
     tests_require=[
         'nose==1.3.3',
-    ]
+    ],
+    install_requires=["pycrypto"]
 )
